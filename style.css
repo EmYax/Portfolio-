@@ -2,7 +2,7 @@ body{
   
 }
 
-#box {
+.box {
   padding: 100px;
   text-align: center;
   min-width: 500px;
@@ -29,7 +29,7 @@ body{
   transition: margin-left 0.3s cubic-bezier(0, 1, 0, 1);
 }
     
-#box:hover #flash {
+.box:hover .flash {
   margin-left: 20px;
   transition: margin-left 1s cubic-bezier(0, 0.75, 0, 1);
 }
@@ -42,7 +42,7 @@ body{
   text-shadow: #111 0 0 1px, rgba(255,255,255,0.1) 0 1px 3px;
 }
 
-#box:hover #light {
+.box:hover .light {
   text-shadow: #fff 0 0 4px, #fcffbb 0 0 20px;
   transform: rotateY(-60deg);
   transition:         transform 0.3s cubic-bezier(0, 0.75, 0, 1), text-shadow 0.1s ease-out;
