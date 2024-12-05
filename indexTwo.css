@@ -60,3 +60,8 @@ body, html {
   transform: rotateY(-60deg);
   transition:         transform 0.3s cubic-bezier(0, 0.75, 0, 1), text-shadow 0.1s ease-out;
 }
+
+
+#powerBy{
+  text-align: center;
+}
